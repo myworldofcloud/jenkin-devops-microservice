@@ -15,12 +15,23 @@ pipeline {
 			}
 		}
 		
-		} post 
+		} 
+		
+		post 
 		 {  
 			always {
 			
 		   echo "Iam awesomw"
 		     }
+
+			 success {
+			
+		   echo "Successful"
+		     }
 		   
+		   failure {
+			
+		   echo "Failed"
+		     }
 		   }
 }
