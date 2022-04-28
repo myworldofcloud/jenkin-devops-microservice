@@ -15,5 +15,12 @@ pipeline {
 			}
 		}
 		
-		}
+		} post 
+		 {  
+			always {
+			
+		   echo "Iam awesomw"
+		     }
+		   
+		   }
 }
